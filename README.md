@@ -356,24 +356,11 @@ Intermediate outputs are written to `build/` as JSON (`pages.json`, `chunks.json
 
 ---
 
-## 7. Limitations and ideas for improvement
-
-**Known limitations**
+## 7. Limitations
 
 - **Text only.** Values printed inside diagrams (callouts, exploded views) are not extracted, as the assignment scoped.
 - **Wrapped component names** in part tables are sometimes cut at the line break, for example "TPMS sensor (a new" in the rules output. The LLM path reads the full excerpt and is not affected.
 - **Rules mode can be confidently wrong on paraphrases.** For "lug nut torque" it returns the 40 Nm wheel hub nut, because it only matches words. This is why it is the baseline and fallback rather than the main path.
-- **Retrieval depth.** "Brake hose bracket bolt(s)" appears in 7 sections, and 6 excerpts are retrieved, so some sections are never seen. Raising `--top-k` fixes it per query at the cost of a longer prompt. A better fix is to retrieve per section when a part name is that widespread.
-- **Free-tier throughput.** About 3 LLM queries per minute. Fine for a demo, not for production traffic.
-- **No held-out evaluation set** (see section 4).
+- **Retrieval depth.** "Brake hose bracket bolt(s)" appears in 7 sections, and 6 excerpts are retrieved, so some sections are never seen. Raising `--top-k` fixes it per query at the cost of a longer prompt.
+- **Free-tier quota.** Groq's free tier allows about 3 LLM queries per minute and 200,000 tokens per day (roughly 70 queries). If the live demo shows "daily token limit reached", Rules mode still works and the quota refills over the following 24 hours. A paid tier or a separate key for the deployed API removes the limit.
 
-**Ideas for improvement**
-
-1. **Cross-encoder re-ranking** (e.g. `bge-reranker-base`) over the fused top 20. Cheap at this corpus size, and the most likely next gain in retrieval precision.
-2. **Unit cross-check.** Nm and lb-ft are both printed, and 1 Nm = 0.7376 lb-ft. A value whose two columns disagree beyond rounding is a parsing error, and it could be flagged automatically.
-3. **Table structure from layout.** Use PyMuPDF `find_tables()` or a layout model for the Material tables instead of row reconstruction, so capacities and part codes come out as clean cells.
-4. **Answer-level citations in the UI**: link each value to a rendered image of its PDF page region, so a technician can see the original table.
-5. **Fine-tuned embeddings.** The 455 parsed rows plus generated paraphrases make a ready contrastive training set for automotive vocabulary.
-6. **Multi-manual support.** Add vehicle/model-year metadata and a filter, and handle the same procedure differing by model year.
-7. **OCR for diagram text**: Tesseract or a vision-language model on figures, merged into the same index with `kind="figure"`.
-8. **Held-out evaluation.** Freeze a test split of real technician questions before any further tuning.
