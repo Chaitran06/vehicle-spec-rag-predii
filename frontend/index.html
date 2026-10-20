@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F-150 Spec Finder</title>
+  <meta name="description" content="Ask the 2014 F-150 workshop manual for torque values, fluid capacities and part numbers. Every value is shown with the manual line it came from.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314213D'/%3E%3Cpath d='M9 22l9-9m-3-3l7 7' stroke='%23FFD84D' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script src="config.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to search</a>
+
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <div class="brand">
+        <h1>Spec Finder</h1>
+        <p class="manual">2014 Ford F-150 Workshop Manual <span id="coverage">— suspension, driveline and brakes</span></p>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="View">
+        <button role="tab" id="tab-ask" aria-selected="true" aria-controls="panel-ask">Ask</button>
+        <button role="tab" id="tab-browse" aria-selected="false" aria-controls="panel-browse" tabindex="-1">Browse all specs</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ ASK ============ -->
+    <section id="panel-ask" role="tabpanel" aria-labelledby="tab-ask" class="wrap">
+      <form id="ask-form" class="ask" autocomplete="off">
+        <label for="q" class="ask-label">What do you need to look up?</label>
+        <div class="ask-row">
+          <input id="q" name="q" type="text" required minlength="2" maxlength="300"
+                 placeholder="Torque for brake caliper bolts">
+          <button type="submit" id="submit" class="primary">Find specs</button>
+        </div>
+        <div class="controls">
+          <fieldset class="segmented" id="mode-group">
+            <legend>Extractor</legend>
+            <label><input type="radio" name="mode" value="llm" checked><span>LLM</span></label>
+            <label><input type="radio" name="mode" value="rules"><span>Rules only</span></label>
+          </fieldset>
+          <label class="select">
+            <span>System</span>
+            <select id="system" name="system">
+              <option value="">All</option>
+              <option>Suspension</option>
+              <option>Driveline</option>
+              <option>Brakes</option>
+            </select>
+          </label>
+          <label class="select">
+            <span>Excerpts</span>
+            <select id="topk" name="topk">
+              <option>4</option><option selected>6</option><option>8</option><option>10</option>
+            </select>
+          </label>
+        </div>
+        <div class="examples" aria-label="Example questions">
+          <span>Try</span>
+          <button type="button" class="example">Torque for brake caliper bolts</button>
+          <button type="button" class="example">lug nut torque</button>
+          <button type="button" class="example">How much gear oil does the 9.75-inch rear axle take?</button>
+          <button type="button" class="example">sway bar link nut torque</button>
+          <button type="button" class="example">part number of the TPMS sensor</button>
+          <button type="button" class="example">engine oil capacity</button>
+        </div>
+      </form>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+
+      <section id="results" class="results" hidden>
+        <div class="results-bar">
+          <p id="summary" class="summary"></p>
+          <div class="results-actions">
+            <div class="view-toggle" role="group" aria-label="Result view">
+              <button type="button" data-view="sheet" aria-pressed="true">Spec sheet</button>
+              <button type="button" data-view="json" aria-pressed="false">JSON</button>
+            </div>
+            <button type="button" id="dl-json" class="ghost">Download JSON</button>
+            <button type="button" id="dl-csv" class="ghost">Download CSV</button>
+          </div>
+        </div>
+
+        <div id="sheet"></div>
+        <pre id="json-view" class="json-view" hidden></pre>
+
+        <details id="rejected" class="drawer" hidden>
+          <summary></summary>
+          <ul id="rejected-list"></ul>
+        </details>
+
+        <details id="sources" class="drawer">
+          <summary></summary>
+          <ol id="source-list" class="source-list"></ol>
+        </details>
+      </section>
+    </section>
+
+    <!-- ============ BROWSE ============ -->
+    <section id="panel-browse" role="tabpanel" aria-labelledby="tab-browse" class="wrap" hidden>
+      <p class="browse-intro">Every specification row the rule-based parser read out of the manual's tables and "Tighten to" steps. No LLM involved; this is also the ground truth the evaluation is built from.</p>
+      <div class="browse-filters">
+        <label class="select grow"><span>Component</span><input id="b-q" type="search" placeholder="e.g. ball joint"></label>
+        <label class="select"><span>System</span>
+          <select id="b-system"><option value="">All</option><option>Suspension</option><option>Driveline</option><option>Brakes</option></select>
+        </label>
+        <label class="select"><span>Type</span>
+          <select id="b-type"><option value="">All</option></select>
+        </label>
+      </div>
+      <p id="b-count" class="summary"></p>
+      <div class="table-scroll">
+        <table class="browse">
+          <thead><tr><th>Component</th><th>Type</th><th class="num">Value</th><th>Alt</th><th>Section</th><th>Procedure</th><th class="num">Page</th></tr></thead>
+          <tbody id="b-rows"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p id="foot-meta"></p>
+    <p>Values are taken from the manual text and checked against it. Always confirm against the official service information before working on a vehicle.</p>
+  </footer>
+
+  <script src="app.js?v=3"></script>
+</body>
+</html>

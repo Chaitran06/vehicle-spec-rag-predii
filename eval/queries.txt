@@ -1,0 +1,12 @@
+# One query per line. Used by: specrag batch eval/queries.txt  (writes outputs/specs.json + .csv)
+Torque for brake caliper bolts
+lug nut torque
+sway bar link nut torque
+SVT Raptor front shock absorber lower nut torque
+How much gear oil does the 9.75-inch rear axle take?
+front axle differential fluid capacity
+brake master cylinder fluid capacity
+minimum thickness of the front brake disc
+ring gear backlash specification for the 9.75 inch axle
+part number of the TPMS sensor
+engine oil capacity

@@ -1,0 +1,1221 @@
+[
+ {
+  "q": "torque for abs module screws",
+  "expect": [
+   {
+    "value": "3",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "ABS module screws  3  —  27"
+   }
+  ]
+ },
+ {
+  "q": "torque for axle housing tube bolts",
+  "expect": [
+   {
+    "value": "73",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Axle housing tube bolts  73 54"
+   }
+  ]
+ },
+ {
+  "q": "torque for axle housing tube bushing bolt",
+  "expect": [
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Axle housing tube bushing bolt  175 129"
+   }
+  ]
+ },
+ {
+  "q": "torque for axle vent",
+  "expect": [
+   {
+    "value": "18",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Axle vent  18  — 159"
+   },
+   {
+    "value": "18",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Axle vent  18  — 159"
+   }
+  ]
+ },
+ {
+  "q": "torque for axle vent valve",
+  "expect": [
+   {
+    "value": "18",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Axle vent valve  18  — 159"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake caliper anchor plate bolts",
+  "expect": [
+   {
+    "value": "250",
+    "unit": "Nm",
+    "section": "206-03",
+    "line": "Brake caliper anchor plate bolts  250 184 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake caliper bleed screw",
+  "expect": [
+   {
+    "value": "10",
+    "unit": "Nm",
+    "section": "206-00",
+    "line": "Brake caliper bleed screw  10 —  89"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake caliper bleeder screw",
+  "expect": [
+   {
+    "value": "10",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake caliper bleeder screw  10  —  89"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake caliper flow bolt",
+  "expect": [
+   {
+    "value": "35",
+    "unit": "Nm",
+    "section": "206-03",
+    "line": "Brake caliper flow bolt  35 26  —"
+   },
+   {
+    "value": "35",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake caliper flow bolt  35 26  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake caliper guide pin bolts",
+  "expect": [
+   {
+    "value": "37",
+    "unit": "Nm",
+    "section": "206-03",
+    "line": "Brake caliper guide pin bolts  37 27  —"
+   },
+   {
+    "value": "33",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake caliper guide pin bolts  33 24  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake caliper support bracket bolts",
+  "expect": [
+   {
+    "value": "150",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake caliper support bracket bolts  150 111 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake disc shield bolts",
+  "expect": [
+   {
+    "value": "17",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Brake disc shield bolts  17  — 150"
+   },
+   {
+    "value": "17",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Brake disc shield bolts  17  — 150"
+   },
+   {
+    "value": "18",
+    "unit": "Nm",
+    "section": "206-03",
+    "line": "Brake disc shield bolts  18  — 159"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake flexible hose bracket bolt",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-04",
+    "line": "Brake flexible hose bracket bolt  30 22  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake flexible hose bracket-to-axle bolt",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake flexible hose bracket-to-axle bolt  30 22  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake flexible hose bracket-to-frame bolt",
+  "expect": [
+   {
+    "value": "17",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake flexible hose bracket-to-frame bolt 17  — 150"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake flexible hose bracket-to-wheel knuckle bolt",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "206-03",
+    "line": "Brake flexible hose bracket-to-wheel knuckle bolt 30 22  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake hose bracket bolt",
+  "expect": [
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Brake hose bracket bolt  12  — 106"
+   },
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Brake hose bracket bolt  12  — 106"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake hose bracket bolts",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Brake hose bracket bolts  30 22  —"
+   },
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Brake hose bracket bolts  30 22  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake master cylinder nuts",
+  "expect": [
+   {
+    "value": "25",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Brake master cylinder nuts  25 18  —"
+   },
+   {
+    "value": "25",
+    "unit": "Nm",
+    "section": "206-07",
+    "line": "Brake master cylinder nuts  25 18  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake pedal bracket bolts",
+  "expect": [
+   {
+    "value": "25",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Brake pedal bracket bolts  25 18  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake pedal control switch screw",
+  "expect": [
+   {
+    "value": "3",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Brake pedal control switch screw  3  —  27"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake tube fitting",
+  "expect": [
+   {
+    "value": "17",
+    "unit": "Nm",
+    "section": "206-03",
+    "line": "Brake tube fitting  17  — 150"
+   },
+   {
+    "value": "17",
+    "unit": "Nm",
+    "section": "206-04",
+    "line": "Brake tube fitting  17  — 150"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake tube-to-hydraulic control unit (hcu) fittings",
+  "expect": [
+   {
+    "value": "20",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "Brake tube-to-Hydraulic Control Unit (HCU) fittings  20 — 177"
+   }
+  ]
+ },
+ {
+  "q": "torque for brake tube/parking brake cable bracket bolt",
+  "expect": [
+   {
+    "value": "25",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Brake tube/parking brake cable bracket bolt 25 18  —"
+   },
+   {
+    "value": "25",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Brake tube/parking brake cable bracket bolt  25 18  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for coolant expansion tank/lower air cleaner (acl) housing assembly bolts",
+  "expect": [
+   {
+    "value": "15",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Coolant expansion tank/lower Air Cleaner (ACL) housing assembly bolts 15 — 133"
+   },
+   {
+    "value": "15",
+    "unit": "Nm",
+    "section": "206-07",
+    "line": "Coolant expansion tank/lower Air Cleaner (ACL) housing assembly bolts 15 — 133"
+   }
+  ]
+ },
+ {
+  "q": "torque for crossmember bolts and nuts",
+  "expect": [
+   {
+    "value": "90",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Crossmember bolts and nuts  90 66"
+   }
+  ]
+ },
+ {
+  "q": "torque for differential bearing cap bolt",
+  "expect": [
+   {
+    "value": "112",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Differential bearing cap bolt  112 83  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for differential bearing cap bolts",
+  "expect": [
+   {
+    "value": "105",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Differential bearing cap bolts  105 77  —"
+   },
+   {
+    "value": "105",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Differential bearing cap bolts  105 77"
+   }
+  ]
+ },
+ {
+  "q": "torque for differential housing cover bolts",
+  "expect": [
+   {
+    "value": "45",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Differential housing cover bolts  45 33  —"
+   },
+   {
+    "value": "45",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Differential housing cover bolts  45 33  —"
+   },
+   {
+    "value": "32",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Differential housing cover bolts  32 24"
+   }
+  ]
+ },
+ {
+  "q": "torque for differential pinion shaft lock bolt",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Differential pinion shaft lock bolt  30 22  —"
+   },
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Differential pinion shaft lock bolt  30 22  —"
+   },
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Differential pinion shaft lock bolt  30 22"
+   }
+  ]
+ },
+ {
+  "q": "torque for driveshaft flange bolts",
+  "expect": [
+   {
+    "value": "103",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Driveshaft flange bolts  103 76  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for eld electrical connector bolt",
+  "expect": [
+   {
+    "value": "7",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "ELD electrical connector bolt  7  —  62"
+   }
+  ]
+ },
+ {
+  "q": "torque for electronic locking differential (eld) coil screws",
+  "expect": [
+   {
+    "value": "5",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Electronic Locking Differential (ELD) coil screws 5  —  44"
+   }
+  ]
+ },
+ {
+  "q": "torque for fill plug",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Fill plug  30 22  —"
+   },
+   {
+    "value": "25",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Fill plug  25 18"
+   }
+  ]
+ },
+ {
+  "q": "torque for filler plug",
+  "expect": [
+   {
+    "value": "52",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Filler plug  52 38  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for front axle housing bushing bolt",
+  "expect": [
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Front axle housing bushing bolt  175 129"
+   }
+  ]
+ },
+ {
+  "q": "torque for front driveshaft flange-to-pinion flange bolts",
+  "expect": [
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "205-01",
+    "line": "Front driveshaft flange-to-pinion flange bolts  55 41"
+   }
+  ]
+ },
+ {
+  "q": "torque for front driveshaft flange-to-transfer case flange bolts",
+  "expect": [
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "205-01",
+    "line": "Front driveshaft flange-to-transfer case flange bolts 55 41"
+   }
+  ]
+ },
+ {
+  "q": "torque for front wheel speed sensor bolt",
+  "expect": [
+   {
+    "value": "17",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "Front wheel speed sensor bolt  17 — 150"
+   }
+  ]
+ },
+ {
+  "q": "torque for front wheel speed sensor harness bolt",
+  "expect": [
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "Front wheel speed sensor harness bolt  12 — 106"
+   }
+  ]
+ },
+ {
+  "q": "torque for halfshaft nut",
+  "expect": [
+   {
+    "value": "40",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Halfshaft nut  40 30  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for handle adapter",
+  "expect": [
+   {
+    "value": "2.2",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Handle Adapter  2.2 —  20"
+   },
+   {
+    "value": "2.2",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Handle Adapter  2.2 —  20"
+   }
+  ]
+ },
+ {
+  "q": "torque for hcu -to-bracket nuts",
+  "expect": [
+   {
+    "value": "8",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "HCU -to-bracket nuts  8  —  71"
+   }
+  ]
+ },
+ {
+  "q": "torque for hcu bracket bolts",
+  "expect": [
+   {
+    "value": "20",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "HCU bracket bolts  20 — 177"
+   }
+  ]
+ },
+ {
+  "q": "torque for hood switch and bracket nut",
+  "expect": [
+   {
+    "value": "6",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Hood switch and bracket nut  6  —  53"
+   }
+  ]
+ },
+ {
+  "q": "torque for integrated wheel end (iwe) bolts",
+  "expect": [
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Integrated Wheel End (IWE) bolts  12  — 106"
+   },
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "205-04",
+    "line": "Integrated Wheel End (IWE) bolts  12  — 106"
+   }
+  ]
+ },
+ {
+  "q": "torque for jounce bumper-to-frame bolt",
+  "expect": [
+   {
+    "value": "35",
+    "unit": "Nm",
+    "section": "204-02",
+    "line": "Jounce bumper-to-frame bolt  35 26  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for lower arm forward and rearward nuts",
+  "expect": [
+   {
+    "value": "350",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Lower arm forward and rearward nuts  350 258 —"
+   },
+   {
+    "value": "350",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Lower arm forward and rearward nuts  350 258 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for lower ball joint nut",
+  "expect": [
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Lower ball joint nut  175 129 —"
+   },
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Lower ball joint nut  175 129 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for lower shock absorber nuts",
+  "expect": [
+   {
+    "value": "90",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Lower shock absorber nuts  90 66  —"
+   },
+   {
+    "value": "90",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Lower shock absorber nuts  90 66  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for lower steering column shaft-to-steering gear bolt",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Lower steering column shaft-to-steering gear bolt 30 22"
+   }
+  ]
+ },
+ {
+  "q": "torque for master cylinder primary brake tube fittings",
+  "expect": [
+   {
+    "value": "28",
+    "unit": "Nm",
+    "section": "206-00",
+    "line": "Master cylinder primary brake tube fittings  28 21  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for master cylinder primary brake tube-to- hcu fitting",
+  "expect": [
+   {
+    "value": "28",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "Master cylinder primary brake tube-to- HCU fitting  28 21  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for master cylinder secondary brake tube fitting",
+  "expect": [
+   {
+    "value": "20",
+    "unit": "Nm",
+    "section": "206-00",
+    "line": "Master cylinder secondary brake tube fitting 20 — 177"
+   }
+  ]
+ },
+ {
+  "q": "torque for master cylinder secondary brake tube-to- hcu fitting",
+  "expect": [
+   {
+    "value": "20",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "Master cylinder secondary brake tube-to- HCU fitting 20 — 177"
+   }
+  ]
+ },
+ {
+  "q": "torque for minimum traction-lok breakaway torque",
+  "expect": [
+   {
+    "value": "27",
+    "unit": "Nm",
+    "section": "205-00",
+    "line": "Minimum Traction-Lok breakaway torque  27 Nm (20 lb-ft)"
+   }
+  ]
+ },
+ {
+  "q": "torque for parking brake cable bracket bolt (rh)",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "206-05",
+    "line": "Parking brake cable bracket bolt (RH) 30 22  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for parking brake control bolts",
+  "expect": [
+   {
+    "value": "20",
+    "unit": "Nm",
+    "section": "206-05",
+    "line": "Parking brake control bolts  20 — 177"
+   }
+  ]
+ },
+ {
+  "q": "torque for primary brake tube fitting",
+  "expect": [
+   {
+    "value": "28",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Primary brake tube fitting  28 21  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for rear axle housing bushing bolt",
+  "expect": [
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "205-03",
+    "line": "Rear axle housing bushing bolt  175 129"
+   }
+  ]
+ },
+ {
+  "q": "torque for rear driveshaft center bearing bolts",
+  "expect": [
+   {
+    "value": "48",
+    "unit": "Nm",
+    "section": "205-01",
+    "line": "Rear driveshaft center bearing bolts  48 35"
+   }
+  ]
+ },
+ {
+  "q": "torque for rear driveshaft flange bolts",
+  "expect": [
+   {
+    "value": "103",
+    "unit": "Nm",
+    "section": "205-01",
+    "line": "Rear driveshaft flange bolts  103 76"
+   }
+  ]
+ },
+ {
+  "q": "torque for rear wheel speed sensor bolt",
+  "expect": [
+   {
+    "value": "15",
+    "unit": "Nm",
+    "section": "206-09",
+    "line": "Rear wheel speed sensor bolt  15 — 133"
+   }
+  ]
+ },
+ {
+  "q": "torque for rh parking brake cable bracket bolt",
+  "expect": [
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "RH parking brake cable bracket bolt  30 22  —"
+   },
+   {
+    "value": "30",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "RH parking brake cable bracket bolt  30 22  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for secondary brake tube fitting",
+  "expect": [
+   {
+    "value": "20",
+    "unit": "Nm",
+    "section": "206-06",
+    "line": "Secondary brake tube fitting  20 — 177"
+   }
+  ]
+ },
+ {
+  "q": "torque for shock absorber lower nut (svt raptor)",
+  "expect": [
+   {
+    "value": "550",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Shock absorber lower nut (SVT Raptor)  550 406 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for shock absorber lower nuts",
+  "expect": [
+   {
+    "value": "90",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Shock absorber lower nuts  90 66  —"
+   },
+   {
+    "value": "90",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Shock absorber lower nuts  90 66  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for shock absorber nuts",
+  "expect": [
+   {
+    "value": "90",
+    "unit": "Nm",
+    "section": "204-02",
+    "line": "Shock absorber nuts  90 66  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for shock absorber shield bolts (svt raptor)",
+  "expect": [
+   {
+    "value": "4",
+    "unit": "Nm",
+    "section": "204-02",
+    "line": "Shock absorber shield bolts (SVT Raptor) 4  —  35"
+   }
+  ]
+ },
+ {
+  "q": "torque for shock absorber upper mount nuts",
+  "expect": [
+   {
+    "value": "63",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Shock absorber upper mount nuts  63 46  —"
+   },
+   {
+    "value": "63",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Shock absorber upper mount nuts  63 46  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for shock rod nut",
+  "expect": [
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Shock rod nut  55 41  —"
+   },
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Shock rod nut  55 41  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for skid plate bolts",
+  "expect": [
+   {
+    "value": "48",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Skid plate bolts  48 35  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for skid plate bolts (svt raptor vehicles)",
+  "expect": [
+   {
+    "value": "48",
+    "unit": "Nm",
+    "section": "205-01",
+    "line": "Skid plate bolts (SVT Raptor vehicles)  48 35"
+   }
+  ]
+ },
+ {
+  "q": "torque for spring shackle-to-frame nut",
+  "expect": [
+   {
+    "value": "185",
+    "unit": "Nm",
+    "section": "204-02",
+    "line": "Spring shackle-to-frame nut  185 136 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for spring-to-frame nut",
+  "expect": [
+   {
+    "value": "350",
+    "unit": "Nm",
+    "section": "204-02",
+    "line": "Spring-to-frame nut  350 258 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for spring-to-shackle nut",
+  "expect": [
+   {
+    "value": "185",
+    "unit": "Nm",
+    "section": "204-02",
+    "line": "Spring-to-shackle nut  185 136 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for stabilizer bar bracket nuts",
+  "expect": [
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Stabilizer bar bracket nuts  55 41  —"
+   },
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Stabilizer bar bracket nuts  55 41  —"
+   },
+   {
+    "value": "55",
+    "unit": "Nm",
+    "section": "205-01",
+    "line": "Stabilizer bar bracket nuts  55 41"
+   }
+  ]
+ },
+ {
+  "q": "torque for stabilizer bar link nuts",
+  "expect": [
+   {
+    "value": "70",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Stabilizer bar link nuts  70 52  —"
+   },
+   {
+    "value": "70",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Stabilizer bar link nuts  70 52  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for stabilizer bar link nuts (svt raptor)",
+  "expect": [
+   {
+    "value": "80",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Stabilizer bar link nuts (SVT Raptor)  80 59  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for tie-rod end nut",
+  "expect": [
+   {
+    "value": "115",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Tie-rod end nut  115 85  —"
+   },
+   {
+    "value": "115",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Tie-rod end nut  115 85  —"
+   },
+   {
+    "value": "115",
+    "unit": "Nm",
+    "section": "205-04",
+    "line": "Tie-rod end nut  115 85  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for tool 205-135 nut",
+  "expect": [
+   {
+    "value": "7",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Tool 205-135 nut  7  —  62"
+   },
+   {
+    "value": "7",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Tool 205-135 nut  7  —  62"
+   }
+  ]
+ },
+ {
+  "q": "torque for upper arm-to-frame nuts",
+  "expect": [
+   {
+    "value": "150",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Upper arm-to-frame nuts  150 111 —"
+   },
+   {
+    "value": "150",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Upper arm-to-frame nuts  150 111 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for upper ball joint nut",
+  "expect": [
+   {
+    "value": "115",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Upper ball joint nut  115 85  —"
+   },
+   {
+    "value": "115",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Upper ball joint nut  115 85  —"
+   },
+   {
+    "value": "150",
+    "unit": "Nm",
+    "section": "205-04",
+    "line": "Upper ball joint nut  150 111 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for valve stem-to-tire pressure monitoring system (tpms) sensor screw",
+  "expect": [
+   {
+    "value": "1.5",
+    "unit": "Nm",
+    "section": "204-04",
+    "line": "Valve stem-to-Tire Pressure Monitoring System (TPMS) sensor screw 1.5 13"
+   }
+  ]
+ },
+ {
+  "q": "torque for wheel bearing and wheel hub bolts",
+  "expect": [
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Wheel bearing and wheel hub bolts  175 129 —"
+   },
+   {
+    "value": "175",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Wheel bearing and wheel hub bolts  175 129 —"
+   }
+  ]
+ },
+ {
+  "q": "torque for wheel hub nut",
+  "expect": [
+   {
+    "value": "40",
+    "unit": "Nm",
+    "section": "205-04",
+    "line": "Wheel hub nut  40 30  —"
+   }
+  ]
+ },
+ {
+  "q": "torque for wheel speed sensor bolt",
+  "expect": [
+   {
+    "value": "18",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Wheel speed sensor bolt  18  — 159"
+   },
+   {
+    "value": "18",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Wheel speed sensor bolt  18  — 159"
+   }
+  ]
+ },
+ {
+  "q": "torque for wheel speed sensor bolts",
+  "expect": [
+   {
+    "value": "15",
+    "unit": "Nm",
+    "section": "205-02A",
+    "line": "Wheel speed sensor bolts  15  — 133"
+   },
+   {
+    "value": "15",
+    "unit": "Nm",
+    "section": "205-02B",
+    "line": "Wheel speed sensor bolts  15  — 133"
+   }
+  ]
+ },
+ {
+  "q": "torque for wheel speed sensor harness bracket bolt",
+  "expect": [
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "204-01A",
+    "line": "Wheel speed sensor harness bracket bolt 12  — 106"
+   },
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "204-01B",
+    "line": "Wheel speed sensor harness bracket bolt 12  — 106"
+   },
+   {
+    "value": "12",
+    "unit": "Nm",
+    "section": "205-04",
+    "line": "Wheel speed sensor harness bracket bolt 12  — 106"
+   }
+  ]
+ }
+]

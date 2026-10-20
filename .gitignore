@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# The manual is Ford's copyrighted material and 43 MB — never commit it.
+data/*.pdf
+
+# Rebuilt by `specrag ingest`
+build/
+
+# The deploy bundle contains the manual's text. It goes to the Hugging Face
+# Space (see deploy/huggingface/README.md), not to a public GitHub repo.
+index/

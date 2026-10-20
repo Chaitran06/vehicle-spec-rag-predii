@@ -1,0 +1,277 @@
+[
+  {
+    "_comment": "Phrased the way a technician would ask. Every expected value was checked by hand against the manual page in 'note'. 'section' matters: the same part name has different values in different sections.",
+    "q": "_TEMPLATE_"
+  },
+  {
+    "q": "Torque for brake caliper bolts",
+    "note": "The assignment's own example. Ambiguous on purpose: front (206-03, p636) and rear (206-04, p652) tables both have caliper bolts, with different guide-pin values (37 vs 33 Nm).",
+    "expect": [
+      {
+        "value": "250",
+        "unit": "Nm",
+        "section": "206-03",
+        "line": "Brake caliper anchor plate bolts  250 184 —"
+      },
+      {
+        "value": "35",
+        "unit": "Nm",
+        "section": "206-03",
+        "line": "Brake caliper flow bolt  35 26  —"
+      },
+      {
+        "value": "37",
+        "unit": "Nm",
+        "section": "206-03",
+        "line": "Brake caliper guide pin bolts  37 27  —"
+      },
+      {
+        "value": "35",
+        "unit": "Nm",
+        "section": "206-04",
+        "line": "Brake caliper flow bolt  35 26  —"
+      },
+      {
+        "value": "33",
+        "unit": "Nm",
+        "section": "206-04",
+        "line": "Brake caliper guide pin bolts  33 24  —"
+      },
+      {
+        "value": "150",
+        "unit": "Nm",
+        "section": "206-04",
+        "line": "Brake caliper support bracket bolts  150 111 —"
+      }
+    ]
+  },
+  {
+    "q": "rear brake caliper guide pin bolt torque",
+    "note": "206-04 p652 only.",
+    "expect": [
+      {
+        "value": "33",
+        "unit": "Nm",
+        "section": "206-04",
+        "line": "Brake caliper guide pin bolts  33 24  —"
+      }
+    ]
+  },
+  {
+    "q": "sway bar link nut torque",
+    "note": "Technician's word 'sway bar' vs manual's 'stabilizer bar'. RWD 70, 4WD 70, Raptor 80 (p24, p59).",
+    "expect": [
+      {
+        "value": "70",
+        "unit": "Nm",
+        "section": "204-01A",
+        "line": "Stabilizer bar link nuts  70 52  —"
+      },
+      {
+        "value": "70",
+        "unit": "Nm",
+        "section": "204-01B",
+        "line": "Stabilizer bar link nuts  70 52  —"
+      },
+      {
+        "value": "80",
+        "unit": "Nm",
+        "section": "204-01B",
+        "line": "Stabilizer bar link nuts (SVT Raptor)"
+      }
+    ],
+    "accept_also": [
+      {
+        "value": "80",
+        "section": "204-00",
+        "note": "Camber and Caster Adjustment step 13 (p14): 'Install the 2 new stabilizer bar link lower nuts. Tighten the nuts to 80 Nm (59 lb-ft).'"
+      }
+    ]
+  },
+  {
+    "q": "SVT Raptor front shock absorber lower nut torque",
+    "note": "550 Nm for the Raptor vs 90 Nm for everything else (p59).",
+    "expect": [
+      {
+        "value": "550",
+        "unit": "Nm",
+        "section": "204-01B",
+        "line": "Shock absorber lower nut (SVT Raptor)  550 406 —"
+      }
+    ]
+  },
+  {
+    "q": "lower ball joint nut torque",
+    "expect": [
+      {
+        "value": "175",
+        "unit": "Nm",
+        "section": "204-01A",
+        "line": "Lower ball joint nut  175 129 —"
+      },
+      {
+        "value": "175",
+        "unit": "Nm",
+        "section": "204-01B",
+        "line": "Lower ball joint nut  175 129 —"
+      }
+    ]
+  },
+  {
+    "q": "lug nut torque",
+    "note": "The Specifications table says 'Refer to the procedure'; the value is only inline in Wheel and Tire installation (p197).",
+    "expect": [
+      {
+        "value": "204",
+        "unit": "Nm",
+        "section": "204-04",
+        "line": "Tighten to 204 Nm (150 lb-ft)"
+      }
+    ]
+  },
+  {
+    "q": "halfshaft nut torque 4x4",
+    "expect": [
+      {
+        "value": "40",
+        "unit": "Nm",
+        "section": "204-01B",
+        "line": "Halfshaft nut  40 30  —"
+      }
+    ]
+  },
+  {
+    "q": "front axle differential fluid capacity",
+    "note": "Material table, multi-line row (p449).",
+    "expect": [
+      {
+        "value": "1.66",
+        "unit": "L",
+        "section": "205-03",
+        "line": "Motorcraft® SAE 80W-90  WSP-M2C197- 1.66L"
+      }
+    ]
+  },
+  {
+    "q": "How much gear oil does the 9.75-inch rear axle take?",
+    "note": "Three fill volumes depending on differential type (p340): ELD, non Traction-Lok, Traction-Lok.",
+    "expect": [
+      {
+        "value": "2.84",
+        "unit": "L",
+        "section": "205-02B",
+        "line": "2.84L (6.0 pt)"
+      },
+      {
+        "value": "2.60",
+        "unit": "L",
+        "section": "205-02B",
+        "line": "2.60L (5.5 pt)"
+      },
+      {
+        "value": "2.48",
+        "unit": "L",
+        "section": "205-02B",
+        "line": "2.48L (5.25 pt)"
+      }
+    ]
+  },
+  {
+    "q": "brake master cylinder fluid capacity",
+    "note": "Hydraulic Brake Actuation specifications (p696).",
+    "expect": [
+      {
+        "value": "740",
+        "unit": "ml",
+        "section": "206-06",
+        "line": "WSS-M6C62-A 740 ml"
+      }
+    ]
+  },
+  {
+    "q": "minimum thickness of the front brake disc",
+    "expect": [
+      {
+        "value": "32",
+        "unit": "mm",
+        "section": "206-03",
+        "line": "Brake disc minimum thickness  32 mm (1.259 in)"
+      }
+    ],
+    "accept_also": [
+      {
+        "value": "32",
+        "section": "206-00"
+      }
+    ]
+  },
+  {
+    "q": "drive pinion flange runout limit",
+    "expect": [
+      {
+        "value": "0.25",
+        "unit": "mm",
+        "section": "205-00",
+        "line": "Drive pinion flange runout  0.25 mm (0.010 in)"
+      }
+    ]
+  },
+  {
+    "q": "ring gear backlash specification for the 9.75 inch axle",
+    "expect": [
+      {
+        "value": "0.203-0.304",
+        "unit": "mm",
+        "section": "205-02B",
+        "line": "Ring gear backlash"
+      }
+    ]
+  },
+  {
+    "q": "part number of the TPMS sensor",
+    "note": "Part table, Wheels and Tires (p145).",
+    "expect": [
+      {
+        "value": "1A189",
+        "unit": "",
+        "section": "204-04",
+        "line": "4  1A189  Tire Pressure Monitoring System (TPMS) sensor (a new"
+      }
+    ]
+  },
+  {
+    "q": "brake master cylinder nuts torque",
+    "expect": [
+      {
+        "value": "25",
+        "unit": "Nm",
+        "section": "206-06",
+        "line": "Brake master cylinder nuts  25 18  —"
+      }
+    ],
+    "accept_also": [
+      {
+        "value": "25",
+        "section": "206-07",
+        "note": "Power Brake Actuation Torque Specifications (p734) lists the same nuts at 25 Nm."
+      }
+    ]
+  },
+  {
+    "q": "What is the engine oil capacity?",
+    "note": "This manual excerpt covers only sections 204-206 (suspension, driveline, brakes). There is no engine section. The right answer is nothing.",
+    "expect_none": true
+  },
+  {
+    "q": "spark plug torque",
+    "expect_none": true
+  },
+  {
+    "q": "automatic transmission fluid capacity",
+    "expect_none": true
+  },
+  {
+    "q": "cylinder head bolt torque sequence",
+    "expect_none": true
+  }
+]

@@ -1,0 +1,12 @@
+pymupdf>=1.26.0
+sentence-transformers>=5.0.0
+qdrant-client>=1.15.0
+rank-bm25>=0.2.2
+groq>=0.30.0
+pydantic>=2.8.0
+python-dotenv>=1.0.1
+typer>=0.16.0
+rich>=14.0.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+numpy>=1.26

@@ -1,0 +1,1142 @@
+{
+  "retrieval": {
+    "k": 6,
+    "n": 104,
+    "methods": {
+      "dense": {
+        "row_recall": 0.8894,
+        "hit_rate": 0.9038,
+        "row_recall_by_origin": {
+          "handwritten": 0.8,
+          "generated": 0.9045
+        },
+        "misses": [
+          {
+            "q": "SVT Raptor front shock absorber lower nut torque",
+            "recall": 0.0
+          },
+          {
+            "q": "lug nut torque",
+            "recall": 0.0
+          },
+          {
+            "q": "brake master cylinder fluid capacity",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for brake hose bracket bolt",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for brake hose bracket bolts",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for brake tube/parking brake cable bracket bolt",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for differential pinion shaft lock bolt",
+            "recall": 0.33
+          },
+          {
+            "q": "torque for driveshaft flange bolts",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for lower shock absorber nuts",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for rh parking brake cable bracket bolt",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for shock absorber lower nut (svt raptor)",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for wheel speed sensor bolt",
+            "recall": 0.5
+          },
+          {
+            "q": "torque for wheel speed sensor harness bracket bolt",
+            "recall": 0.67
+          }
+        ]
+      },
+      "bm25": {
+        "row_recall": 0.9663,
+        "hit_rate": 0.9712,
+        "row_recall_by_origin": {
+          "handwritten": 0.8,
+          "generated": 0.9944
+        },
+        "misses": [
+          {
+            "q": "lug nut torque",
+            "recall": 0.0
+          },
+          {
+            "q": "front axle differential fluid capacity",
+            "recall": 0.0
+          },
+          {
+            "q": "How much gear oil does the 9.75-inch rear axle take?",
+            "recall": 0.0
+          },
+          {
+            "q": "torque for brake hose bracket bolts",
+            "recall": 0.5
+          }
+        ]
+      },
+      "hybrid": {
+        "row_recall": 0.9856,
+        "hit_rate": 0.9904,
+        "row_recall_by_origin": {
+          "handwritten": 1.0,
+          "generated": 0.9831
+        },
+        "misses": [
+          {
+            "q": "torque for brake hose bracket bolt",
+            "recall": 0.5
+          },
+          {
+            "q": "torque for brake hose bracket bolts",
+            "recall": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "extraction": {
+    "rules": {
+      "mode": "rules",
+      "n": 49,
+      "precision": 0.5676,
+      "recall": 0.9265,
+      "f1": 0.7039,
+      "refusal_accuracy": 1.0,
+      "errors": [],
+      "by_origin": {
+        "handwritten": {
+          "precision": 0.6765,
+          "recall": 0.92
+        },
+        "generated": {
+          "precision": 0.5195,
+          "recall": 0.9302
+        }
+      },
+      "details": [
+        {
+          "q": "Torque for brake caliper bolts",
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "rear brake caliper guide pin bolt torque",
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "37 [206-03]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "sway bar link nut torque",
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "SVT Raptor front shock absorber lower nut torque",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "lower ball joint nut torque",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "lug nut torque",
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "missing": [
+            "204 [204-04]"
+          ],
+          "extra": [
+            "40 [205-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "halfshaft nut torque 4x4",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "front axle differential fluid capacity",
+          "tp": 1,
+          "fp": 3,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "2.60 [205-02B]",
+            "2.84 [205-02A]",
+            "2.84 [205-02B]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "How much gear oil does the 9.75-inch rear axle take?",
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "missing": [
+            "2.48 [205-02B]"
+          ],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "brake master cylinder fluid capacity",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "minimum thickness of the front brake disc",
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "23.0 [206-00]",
+            "23.0 [206-04]",
+            "32 [206-00]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "drive pinion flange runout limit",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "ring gear backlash specification for the 9.75 inch axle",
+          "tp": 1,
+          "fp": 4,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "0.101 [205-03]",
+            "0.102 [205-02A]",
+            "0.203-0.304 [205-02A]",
+            "0.204-0.305 [205-03]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "part number of the TPMS sensor",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "brake master cylinder nuts torque",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "25 [206-07]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "What is the engine oil capacity?",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "spark plug torque",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "automatic transmission fluid capacity",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "cylinder head bolt torque sequence",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "torque for front wheel speed sensor harness bolt",
+          "tp": 1,
+          "fp": 3,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "12 [204-01A]",
+            "12 [204-01B]",
+            "12 [205-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake hose bracket bolts",
+          "tp": 0,
+          "fp": 5,
+          "fn": 2,
+          "missing": [
+            "30 [205-02A]",
+            "30 [205-02B]"
+          ],
+          "extra": [
+            "12 [204-01A]",
+            "17 [206-04]",
+            "30 [205-04]",
+            "30 [206-03]",
+            "30 [206-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for electronic locking differential (eld) coil screws",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for abs module screws",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for wheel speed sensor harness bracket bolt",
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for integrated wheel end (iwe) bolts",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for fill plug",
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "52 [205-02A]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for coolant expansion tank/lower air cleaner (acl) housing assembly bolts",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake tube fitting",
+          "tp": 2,
+          "fp": 6,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "20 [206-00]",
+            "20 [206-06]",
+            "20 [206-09]",
+            "28 [206-00]",
+            "28 [206-06]",
+            "28 [206-09]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for lower ball joint nut",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for parking brake control bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for hcu -to-bracket nuts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for axle housing tube bolts",
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "175 [205-03]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for rh parking brake cable bracket bolt",
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "30 [206-05]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for front wheel speed sensor bolt",
+          "tp": 1,
+          "fp": 9,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "12 [204-01A]",
+            "12 [204-01B]",
+            "12 [205-04]",
+            "12 [206-09]",
+            "15 [205-02A]",
+            "15 [205-02B]",
+            "15 [206-09]",
+            "18 [204-01A]",
+            "18 [204-01B]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for shock absorber lower nut (svt raptor)",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake caliper support bracket bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for shock absorber lower nuts",
+          "tp": 2,
+          "fp": 3,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "550 [204-01B]",
+            "90 [205-02A]",
+            "90 [205-02B]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake hose bracket bolt",
+          "tp": 1,
+          "fp": 4,
+          "fn": 1,
+          "missing": [
+            "12 [204-01B]"
+          ],
+          "extra": [
+            "17 [206-04]",
+            "30 [205-04]",
+            "30 [206-03]",
+            "30 [206-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for spring shackle-to-frame nut",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for shock rod nut",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for rear driveshaft center bearing bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for crossmember bolts and nuts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake tube-to-hydraulic control unit (hcu) fittings",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake caliper anchor plate bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for master cylinder primary brake tube-to- hcu fitting",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for primary brake tube fitting",
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "28 [206-00]",
+            "28 [206-09]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for lower arm forward and rearward nuts",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for rear driveshaft flange bolts",
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "103 [205-02B]",
+            "55 [205-01]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for skid plate bolts (svt raptor vehicles)",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        }
+      ]
+    },
+    "llm": {
+      "mode": "llm",
+      "n": 49,
+      "precision": 0.7111,
+      "recall": 0.9412,
+      "f1": 0.8101,
+      "refusal_accuracy": 1.0,
+      "errors": [],
+      "by_origin": {
+        "handwritten": {
+          "precision": 1.0,
+          "recall": 0.96
+        },
+        "generated": {
+          "precision": 0.6061,
+          "recall": 0.9302
+        }
+      },
+      "details": [
+        {
+          "q": "Torque for brake caliper bolts",
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "rear brake caliper guide pin bolt torque",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "sway bar link nut torque",
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "80 [204-00]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "SVT Raptor front shock absorber lower nut torque",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "lower ball joint nut torque",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "lug nut torque",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "halfshaft nut torque 4x4",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "front axle differential fluid capacity",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "How much gear oil does the 9.75-inch rear axle take?",
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "missing": [
+            "2.48 [205-02B]"
+          ],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "brake master cylinder fluid capacity",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "minimum thickness of the front brake disc",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "32 [206-00]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "drive pinion flange runout limit",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "ring gear backlash specification for the 9.75 inch axle",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "part number of the TPMS sensor",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "brake master cylinder nuts torque",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "25 [206-07]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "What is the engine oil capacity?",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "spark plug torque",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "automatic transmission fluid capacity",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "cylinder head bolt torque sequence",
+          "expect_none": true,
+          "ok": true,
+          "got": []
+        },
+        {
+          "q": "torque for front wheel speed sensor harness bolt",
+          "tp": 1,
+          "fp": 3,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "12 [204-01A]",
+            "12 [204-01B]",
+            "12 [205-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake hose bracket bolts",
+          "tp": 0,
+          "fp": 5,
+          "fn": 2,
+          "missing": [
+            "30 [205-02A]",
+            "30 [205-02B]"
+          ],
+          "extra": [
+            "12 [204-01A]",
+            "17 [206-04]",
+            "30 [205-04]",
+            "30 [206-03]",
+            "30 [206-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for electronic locking differential (eld) coil screws",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for abs module screws",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for wheel speed sensor harness bracket bolt",
+          "tp": 3,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "12 [206-09]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for integrated wheel end (iwe) bolts",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for fill plug",
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "52 [205-02A]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for coolant expansion tank/lower air cleaner (acl) housing assembly bolts",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake tube fitting",
+          "tp": 2,
+          "fp": 6,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "20 [206-00]",
+            "20 [206-06]",
+            "20 [206-09]",
+            "28 [206-00]",
+            "28 [206-06]",
+            "28 [206-09]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for lower ball joint nut",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for parking brake control bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for hcu -to-bracket nuts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for axle housing tube bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for rh parking brake cable bracket bolt",
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "30 [206-05]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for front wheel speed sensor bolt",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for shock absorber lower nut (svt raptor)",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake caliper support bracket bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for shock absorber lower nuts",
+          "tp": 2,
+          "fp": 2,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "90 [205-02A]",
+            "90 [205-02B]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake hose bracket bolt",
+          "tp": 1,
+          "fp": 3,
+          "fn": 1,
+          "missing": [
+            "12 [204-01B]"
+          ],
+          "extra": [
+            "17 [206-04]",
+            "30 [205-04]",
+            "30 [206-04]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for spring shackle-to-frame nut",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for shock rod nut",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for rear driveshaft center bearing bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for crossmember bolts and nuts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake tube-to-hydraulic control unit (hcu) fittings",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for brake caliper anchor plate bolts",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for master cylinder primary brake tube-to- hcu fitting",
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for primary brake tube fitting",
+          "tp": 1,
+          "fp": 2,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "28 [206-00]",
+            "28 [206-09]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for lower arm forward and rearward nuts",
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "missing": [],
+          "extra": [],
+          "rejected": 0
+        },
+        {
+          "q": "torque for rear driveshaft flange bolts",
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "103 [205-02B]"
+          ],
+          "rejected": 0
+        },
+        {
+          "q": "torque for skid plate bolts (svt raptor vehicles)",
+          "tp": 1,
+          "fp": 1,
+          "fn": 0,
+          "missing": [],
+          "extra": [
+            "48 [204-01B]"
+          ],
+          "rejected": 0
+        }
+      ]
+    }
+  }
+}
